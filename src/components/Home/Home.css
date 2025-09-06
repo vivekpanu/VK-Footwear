@@ -1,0 +1,118 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: url(../../assets/banner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.Home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(244, 162, 89, 0.6); /* Or use var(--secondary-color) with opacity */
+  z-index: 1;
+}
+
+.Home .content {
+  margin-left: 2rem;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 70rem;
+  padding: 3rem;
+  background: var(--secondary-color);
+  border-radius: 0.8rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.Home .content h3 {
+  color: var(--black);
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.Home .content p {
+  color: #1c2020;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.Home .content .btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.Home .content .btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(237, 75, 52, 0.3);
+  transition: 0.3s all ease;
+  background-color: #da3822;
+}
+
+@media (max-width: 991px) {
+  .Home {
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    justify-content: center;
+  }
+
+  .Home .content {
+    padding: 2rem;
+  }
+
+  .Home .content h3 {
+    font-size: 3.5rem;
+  }
+
+  .Home .content p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Home {
+    justify-content: center;
+  }
+  .Home .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .Home .content h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .Home {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+  }
+
+  .Home .content h3 {
+    font-size: 2.5rem;
+  }
+
+  .Home .content p {
+    font-size: 1.4rem;
+  }
+}

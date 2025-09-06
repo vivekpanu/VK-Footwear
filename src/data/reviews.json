@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "productId": 1,
+        "name": "Pawan",
+        "review": "VK Footwear offers amazing comfort and style. My experience was fantastic from browsing to delivery!",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "productId": 2,
+        "name": "Dileep",
+        "review": "Great variety and quality. The website is easy to use and the shoes exceeded my expectations.",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "productId": 3,
+        "name": "Mahek",
+        "review": "Absolutely love my new shoes! Fast shipping and excellent customer support from VK Footwear.",
+        "rating": 5
+    }
+]

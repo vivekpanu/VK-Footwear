@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap");
+
+:root {
+  --orange: #D4AF37; /* Changed from orange to gold for a premium brand feel */
+  --black: #130f40;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --outline: 0.1rem solid rgba(0, 0, 0, 0.475);
+  --outline-hover: 0.2rem solid rgba(0, 0, 0, 0.509);
+  --primary-color: #2D2A32;      /* Deep charcoal */
+  --secondary-color: #F4A259;    /* Warm orange */
+  --accent-color: #F7F7FF;       /* Off-white */
+  --highlight-color: #5B9279;    /* Muted green */
+  --text-color: #222;            /* Main text */
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+body{
+  background: var(--accent-color);
+  color: var(--text-color);
+}
+
+/* Example usage for header and footer */
+.header, .footer {
+  background: var(--primary-color);
+  color: var(--accent-color);
+}
+
+/* Example usage for buttons */
+.btn {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+}
+
+/* Example usage for links */
+a {
+  color: var(--highlight-color);
+}

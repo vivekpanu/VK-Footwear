@@ -1,0 +1,179 @@
+.footer {
+    background: white; /* Use var(--accent-color) */
+    padding: 3rem 1.5rem;
+    color: #333;
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    padding-top: 3rem;
+
+  }
+  
+  .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #333; /* Use var(--primary-color) */
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .footer .box-container .box h3 i {
+    color: #ff5733;
+    margin-right: 0.5rem;
+  }
+  
+  .footer .box-container .box .links {
+    display: block;
+    font-size: 1.6rem;
+    color: #666;
+    margin: 0.8rem 0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer .box-container .box .links i {
+    color: #ff5733;
+    padding-right: 0.5rem;
+    transition: padding-right 0.3s ease;
+  }
+  
+  .footer .box-container .box .links:hover {
+    color: #ff5733;
+  }
+  
+  .footer .box-container .box .links:hover i {
+    padding-right: 1rem;
+  }
+  
+  .footer .box-container .box p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    color: #ff5733; /* Use var(--secondary-color) */
+    margin: 0.2rem;
+    background: #f0f0f0; /* Use var(--accent-color) */
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background: #ff5733;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 87, 51, 0.4);
+  }
+  
+  .footer .box-container .box .email {
+    width: 100%;
+    margin: 0.7rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #f0f0f0;
+    font-size: 1.6rem;
+    color: #ff5733;
+    text-transform: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #333;
+    padding-top: 2.5rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer .credit span {
+    color: #ff5733; /* Use var(--secondary-color) */
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .footer .btn{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  /* Responsive Design */
+  @media (max-width: 991px) {
+    .footer .box-container {
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 1.5rem;
+    }
+  
+    .footer .box-container .box h3 {
+      font-size: 2.2rem;
+    }
+  
+    .footer .box-container .box .links {
+      font-size: 1.4rem;
+    }
+  
+    .footer .box-container .box p {
+      font-size: 1.4rem;
+    }
+  
+    .footer .credit {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer .box-container {
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+  
+    .footer .box-container .box h3 {
+      font-size: 2rem;
+    }
+  
+    .footer .box-container .box .links {
+      font-size: 1.3rem;
+    }
+  
+    .footer .box-container .box .share a {
+      height: 3.5rem;
+      width: 3.5rem;
+      line-height: 3.5rem;
+      font-size: 1.7rem;
+    }
+  
+    .footer .credit {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .footer .box-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .footer .box-container .box .share {
+      justify-content: center;
+      display: flex;
+    }
+  
+    .footer .box-container .box .links i {
+      padding-right: 0.3rem;
+    }
+  
+    .footer .box-container .box .links:hover i {
+      padding-right: 1rem;
+    }
+  }

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White Sneakers",
+    "category": "Sneakers",
+    "price": 120,
+    "image": "/classic_white.png",
+    "description": "Stylish white sneakers for everyday wear."
+  },
+  {
+    "id": 2,
+    "name": "Retro High-Top Sneakers",
+    "category": "Sneakers",
+    "price": 130,
+    "image": "/retro_top.png",
+    "description": "Classic high-top sneakers with a retro vibe."
+  },
+  {
+    "id": 3,
+    "name": "Slip-On Canvas Shoes",
+    "category": "Sneakers",
+    "price": 90,
+    "image": "/slip_on.png",
+    "description": "Lightweight slip-on sneakers for casual outings."
+  },
+  {
+    "id": 4,
+    "name": "Premium Leather Sneakers",
+    "category": "Sneakers",
+    "price": 140,
+    "image": "/black_leather.png",
+    "description": "Luxury leather sneakers for a sleek look."
+  },
+  {
+    "id": 5,
+    "name": "Formal Oxford Shoes",
+    "category": "Formal Shoes",
+    "price": 150,
+    "image": "/formal_oxford.png",
+    "description": "Classic Oxford shoes for formal occasions."
+  },
+  {
+    "id": 6,
+    "name": "Derby Leather Shoes",
+    "category": "Formal Shoes",
+    "price": 140,
+    "image": "/derby_shoes.png",
+    "description": "Elegant leather Derby shoes with a polished finish."
+  },
+  {
+    "id": 7,
+    "name": "Monk Strap Shoes",
+    "category": "Formal Shoes",
+    "price": 160,
+    "image": "/monk_strap.png",
+    "description": "Stylish double-strap Monk shoes."
+  },
+  {
+    "id": 8,
+    "name": "Formal Brogue Shoes",
+    "category": "Formal Shoes",
+    "price": 155,
+    "image": "/brogue.png",
+    "description": "Leather Brogue shoes with intricate detailing."
+  },
+  {
+    "id": 9,
+    "name": "Ankle-Length Chelsea Boots",
+    "category": "Boots",
+    "price": 180,
+    "image": "/ankle_length.png",
+    "description": "Sleek Chelsea boots with a modern silhouette."
+  },
+  {
+    "id": 10,
+    "name": "Rugged Hiking Boots",
+    "category": "Boots",
+    "price": 170,
+    "image": "/hiking_boots.png",
+    "description": "Durable hiking boots for outdoor adventures."
+  },
+  {
+    "id": 11,
+    "name": "Leather Desert Boots",
+    "category": "Boots",
+    "price": 160,
+    "image": "/desserts_boots.png",
+    "description": "Classic desert boots for casual style."
+  },
+  {
+    "id": 12,
+    "name": "Combat Boots",
+    "category": "Boots",
+    "price": 190,
+    "image": "/combat_boots.png",
+    "description": "Sturdy combat boots with a bold design."
+  }
+]

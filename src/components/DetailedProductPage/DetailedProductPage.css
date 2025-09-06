@@ -1,0 +1,136 @@
+
+.detailed-product-page {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-details {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .product-image {
+    flex: 1;
+  }
+  
+  .product-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .product-info h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1.8rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .price {
+    font-size: 3rem;
+    color: #ED4431;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .review-form {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+  }
+  
+  .review-form input,
+  .review-form textarea,
+  .review-form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.6rem;
+  }
+  
+  .review-form textarea {
+    min-height: 100px;
+  }
+  
+  .review-form button {
+    padding: 12px;
+    background: #ED4431;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .review-form button:hover {
+    background: #D43129;
+  }
+  
+  .reviews-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .review-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .stars {
+    color: #ED4431;
+    font-size: 1.8rem;
+  }
+  
+  .star {
+    color: #ddd;
+  }
+  
+  .star.filled {
+    color: #ED4431;
+  }
+  
+  .review-text {
+    font-size: 1.6rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .product-details {
+      flex-direction: column;
+    }
+    
+    .detailed-product-page {
+      padding: 20px;
+    }
+  }
+  

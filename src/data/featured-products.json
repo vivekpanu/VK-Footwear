@@ -1,0 +1,29 @@
+
+{
+  "featuredProducts": [
+    {
+      "id": 1,
+      "name": "Classic White Sneakers",
+      "category": "Sneakers",
+      "price": 120.00,
+      "description": "Stylish white sneakers for everyday wear.",
+      "image": "/classic_white.png"
+    },
+    {
+      "id": 5,
+      "name": "Formal Oxford Shoes",
+      "category": "Formal Shoes",
+      "price": 150.00,
+      "description": "Classic Oxford shoes for formal occasions.",
+      "image": "/formal_oxford.png"
+    },
+    {
+      "id": 9,
+      "name": "Ankle-Length Chelsea Boots",
+      "category": "Boots",
+      "price": 180.00,
+      "description": "Sleek Chelsea boots with a modern silhouette.",
+      "image": "/ankle_length.png"
+    }
+  ]
+}

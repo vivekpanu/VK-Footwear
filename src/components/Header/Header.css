@@ -1,0 +1,516 @@
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 3rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--black);
+  color: var(--black);
+  cursor: pointer;
+  background: none;
+}
+
+.btn:hover,
+.Header .icons div:hover,
+.Header .shopping-cart .box .fa-trash:hover,
+.checkout-buttons .btn:first-child,
+.thank-you .btn {
+  background-color: #da3822; /* Use var(--secondary-color) or a darker shade */
+}
+
+.Header {
+  overflow: visible;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  background: white;
+  box-shadow: var(--box-shadow);
+}
+
+.Header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: var(--black);
+}
+.Header .logo i {
+  color: #da3822;
+}
+
+.Header .navbar a {
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  color: var(--black);
+}
+.Header .navbar a:hover {
+  color: #da3822;
+}
+
+.Header .icons div {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 0.5rem;
+  background: #eee;
+  color: var(--black);
+  font-size: 2rem;
+  margin-left: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Header .icons div:hover {
+  background-color: #da3822;
+  color: white;
+}
+
+#menu-btn {
+  display: none;
+}
+
+.Header .shopping-cart {
+  height: 40rem;
+  position: absolute;
+  top: 105%;
+  right: -110%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  width: 35rem;
+  background: #fff;
+}
+
+.Header .shopping-cart.active {
+  right: 2rem;
+  transition: 0.5s ease;
+}
+
+.Header .shopping-cart .box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.Header .shopping-cart .box img {
+  height: 10rem;
+  width: 30%;
+}
+
+.Header .shopping-cart .box .fa-trash {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  cursor: pointer;
+  color: var(--light-color);
+  transform: translateY(-50%);
+}
+
+.Header .shopping-cart .box .fa-trash:hover {
+  color: #da3822;
+}
+
+.Header .shopping-cart .box .content h3 {
+  color: var(--black);
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.Header .shopping-cart .box .content span {
+  color: var(--black);
+  font-size: 1.6rem;
+}
+
+.Header .shopping-cart .box .content .quantity {
+  padding-left: 1rem;
+}
+
+.Header .shopping-cart .total {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--black);
+}
+
+.Header .shopping-cart .btn {
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
+
+.Header .shopping-cart .container {
+  overflow: auto;
+  height: 60%;
+}
+
+.Header .login-form {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  width: 30rem;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: white;
+  text-align: center;
+}
+
+.Header .login-form.active {
+  right: 2rem;
+  transition: 0.5s ease;
+}
+
+.Header .login-form h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.Header .login-form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  background: rgb(237, 235, 235);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+}
+.Header .login-form p {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  color: var(--light-color);
+}
+.Header .login-form p a {
+  cursor: pointer;
+  color: var(--orange);
+  text-decoration: underline;
+}
+.Header .login-form .btn {
+  padding: 2rem;
+  width: 100%;
+}
+.Header .signup-form {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  width: 30rem;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: white;
+  text-align: center;
+}
+
+.Header .signup-form.active {
+  right: 2rem;
+  transition: 0.5s ease;
+}
+
+.Header .signup-form h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.Header .signup-form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  background: rgb(237, 235, 235);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+}
+
+.Header .signup-form p {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  color: var(--light-color);
+}
+
+.Header .signup-form p a {
+  cursor: pointer;
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+.Header .signup-form .btn {
+  padding: 2rem;
+  width: 100%;
+}
+
+.Header .icons .fa-shopping-cart {
+  position: relative;
+}
+
+.Header .icons .cart-item-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px;
+}
+.Header .shopping-cart .box .quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.Header .shopping-cart .box .quantity-control button {
+  background-color: #eee;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  color: var(--black);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Header .shopping-cart .box .quantity-control button:hover {
+  background-color: #da3822;
+  color: white;
+}
+
+.Header .shopping-cart .box .quantity-control .quantity {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--black);
+  padding: 0 0.5rem;
+}
+
+.checkout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.checkout-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.checkout-content h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.checkout-content .box {
+  width: 100%;
+  margin: 1rem 0;
+  background: rgb(237, 235, 235);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  border: none;
+  resize: none;
+}
+
+.checkout-content .box:focus {
+  outline: 0.2rem solid #da3822;
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.checkout-buttons .btn {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.checkout-buttons .btn:first-child {
+  background-color: #da3822;
+  color: white;
+}
+
+.checkout-buttons .btn:first-child:hover {
+  background-color: #b7311c;
+}
+
+.checkout-buttons .btn:last-child {
+  background-color: #eee;
+  color: var(--black);
+}
+
+.checkout-buttons .btn:last-child:hover {
+  background-color: var(--black);
+  color: white;
+}
+
+.thank-you {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  width: 90vw;
+  max-width: 30rem;
+  text-align: center;
+  padding: 2rem;
+  z-index: 1000;
+}
+
+.thank-you p {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+
+.thank-you .btn {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: #da3822;
+  color: white;
+}
+
+.thank-you .btn:hover {
+  background-color: #b7311c;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.box.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin: 4px 0 8px;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .Header {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Header .navbar {
+    position: absolute;
+    top: 110%;
+    right: 110%;
+    width: 30rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    background: white;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .Header .navbar a {
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+    display: block;
+  }
+  .Header .navbar.active {
+    right: 2rem;
+    transition: 0.4s ease;
+  }
+  .checkout-content {
+    padding: 1.5rem;
+    max-width: 35rem;
+  }
+
+  .checkout-content h3 {
+    font-size: 2rem;
+  }
+
+  .checkout-content .box {
+    font-size: 1.4rem;
+  }
+
+  .checkout-buttons .btn {
+    font-size: 1.4rem;
+  }
+
+  .thank-you {
+    padding: 1.5rem;
+  }
+
+  .thank-you p {
+    font-size: 1.8rem;
+  }
+
+  .thank-you .btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .Header .logo {
+    font-size: 1.5rem;
+  }
+  .Header {
+    position: sticky;
+  }
+  .checkout-content,
+  .thank-you {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .checkout-content h3,
+  .thank-you p {
+    font-size: 1.6rem;
+  }
+
+  .checkout-content .box,
+  .checkout-buttons .btn,
+  .thank-you .btn {
+    font-size: 1.3rem;
+  }
+}
