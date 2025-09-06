@@ -55,14 +55,14 @@ A responsive, single‑page e‑commerce frontend for **VK Footwear** built with
 
 ## Reviews
 
-> “I love the comfort and style of VK Footwear! The website made it so easy to find what I wanted and checkout was a breeze.”  
-> — *Ayesha K.*
+> “VK Footwear offers amazing comfort and style. My experience was fantastic from browsing to delivery!”  
+> — *Pawan*
 
-> “Great selection and fast delivery. I’ll definitely be shopping here again!”  
-> — *Imran S.*
+> “Great variety and quality. The website is easy to use and the shoes exceeded my expectations.”  
+> — *Dileep*
 
-> “The shoes are exactly as described and the customer service was excellent. Highly recommended.”  
-> — *Sara M.*
+> “Absolutely love my new shoes! Fast shipping and excellent customer support from VK Footwear.”  
+> — *Mahek*
 
 ---
 
